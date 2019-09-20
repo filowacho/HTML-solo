@@ -1,0 +1,42 @@
+<html>
+<head>
+  <Title> Mi primer mundo HTML </Title>
+  <style>
+    body
+    {
+        background-color: #25B4CB;
+        color: white;
+        font-family: Trebuchet MS;
+    }
+  strong
+{
+  background-color: FF544E;
+}
+  </style>
+</head>
+<body>
+  <script>
+    alert("Payaso malefico: Usted esta por ver algo que nunca antes vio")
+  </script>
+  <script>
+    window.setInterval (BlinkIt, 500);
+    var color = "red";
+    function BlinkIt () {
+    var blink = document.getElementById ("blink");
+    color = (color == "#ffffff")? "red" : "#ffffff";
+    blink.style.color = color;
+    blink.style.fontSize='36px';}
+    </script>
+    <div id="blink">HOY ESTRENO: Tonto y Retonto </div>
+<p> Hola <strong>saltimbanqui</strong> </p>
+  <p> No hay nada que ver aca </p>
+  <p> Volvete a tu casa </p>
+
+<script>
+  var x = 1
+  var y = 2
+  var z = x + y
+    document.write("El valor de z es " + z);
+</script>
+</body>
+</html>
